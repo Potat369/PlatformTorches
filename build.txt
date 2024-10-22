@@ -1,0 +1,3 @@
+displayName = Platform Torches
+author = Potat369
+version = 0.1
