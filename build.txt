@@ -2,3 +2,4 @@ displayName = Platform Torches
 author = Potat369
 version = 1.0
 side = Client
+includeSource = true
