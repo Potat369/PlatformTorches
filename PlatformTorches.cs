@@ -31,7 +31,6 @@ namespace PlatformTorches
 					c.Emit(OpCodes.Ceq);
 					c.EmitBrtrue(c.Next.Next.Next.Next.Next.Next.Next);
 				}
-				MonoModHooks.DumpIL(ModContent.GetInstance<PlatformTorches>(), il);
 			}
 			catch (Exception e)
 			{
