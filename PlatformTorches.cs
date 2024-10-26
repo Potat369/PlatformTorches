@@ -26,7 +26,7 @@ namespace PlatformTorches
 				{
 					c.GotoNext();
 					c.EmitLdloca(10);
-					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance).GetGetMethod(true));  // Get Tile.type
+					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance).GetGetMethod(true));
 					c.EmitLdindU2();
 					c.EmitLdcI4(TileID.Platforms);
 					c.Emit(OpCodes.Ceq);
