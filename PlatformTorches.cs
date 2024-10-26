@@ -22,9 +22,8 @@ namespace PlatformTorches
 			{
 				var c = new ILCursor(il);
 				
-				if (c.TryGotoNext(i => i.MatchBrfalse(out _), i => i.MatchLdsfld(typeof(Main).GetField("tileNoAttach")), i => i.MatchLdloca(10)))
+				if (c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField("tileNoAttach")), i => i.MatchLdloca(10)))
 				{
-					c.GotoNext();
 					c.EmitLdloca(10);
 					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance).GetGetMethod(true));
 					c.EmitLdindU2();
