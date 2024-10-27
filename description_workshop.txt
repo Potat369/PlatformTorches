@@ -4,5 +4,3 @@ Allows smart cursor to place torches for you!
 
 [h2] Contact me[/h2]
 You can write down below in the comment, or for quicker response, text me in [url=https://discordapp.com/users/629733729170096156] Discord [/url], or open issue on [url=https://github.com/Potat369/PlatformTorches] Github [/url]
-[quote=tModLoader PlatformTorches]
-Developed By Potat369[/quote]
