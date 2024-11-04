@@ -28,7 +28,7 @@ namespace PlatformTorches
 					c.EmitLdindU2();
 					c.EmitLdcI4(TileID.Platforms);
 					c.EmitCeq();
-					c.EmitBrtrue(c.Next!.Next.Next.Next.Next.Next.Next);
+					c.EmitBrtrue(c.Instrs[c.Index + 6]);
 				}
 			}
 			catch
