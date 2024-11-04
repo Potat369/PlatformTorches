@@ -1,6 +1,5 @@
 using System;
 using System.Reflection;
-using Mono.Cecil.Cil;
 using MonoMod.Cil;
 using Terraria;
 using Terraria.GameContent;
@@ -22,14 +21,14 @@ namespace PlatformTorches
 			{
 				var c = new ILCursor(il);
 				
-				if (c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField("tileNoAttach")), i => i.MatchLdloca(10)))
+				if (c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField("tileNoAttach")!), i => i.MatchLdloca(10)))
 				{
 					c.EmitLdloca(10);
-					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance).GetGetMethod(true));
+					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance)!.GetGetMethod(true)!);
 					c.EmitLdindU2();
 					c.EmitLdcI4(TileID.Platforms);
 					c.EmitCeq();
-					c.EmitBrtrue(c.Next.Next.Next.Next.Next.Next.Next);
+					c.EmitBrtrue(c.Next!.Next.Next.Next.Next.Next.Next);
 				}
 			}
 			catch (Exception e)
