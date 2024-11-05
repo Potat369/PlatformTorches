@@ -23,11 +23,11 @@ namespace PlatformTorches
 				
 				if (c.TryGotoNext(i => i.MatchLdsfld(typeof(Main).GetField("tileNoAttach")!), i => i.MatchLdloca(10)))
 				{
+					c.EmitLdsfld(typeof(TileID.Sets).GetField("Platforms", BindingFlags.Public | BindingFlags.Static)!);
 					c.EmitLdloca(10);
 					c.EmitCall(typeof(Tile).GetProperty("type", BindingFlags.NonPublic | BindingFlags.Instance)!.GetGetMethod(true)!);
 					c.EmitLdindU2();
-					c.EmitLdcI4(TileID.Platforms);
-					c.EmitCeq();
+					c.EmitLdelemU1();
 					c.EmitBrtrue(c.Instrs[c.Index + 6]);
 				}
 			}
