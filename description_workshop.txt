@@ -1,5 +1,16 @@
 ﻿[h2] Description [/h2]
 Ever wanted to light up your arena, and not place each torch manually? This small mod solves that! Makes smart cursor place torches for you!
 
-[h2] Contact me[/h2]
-Text me in [url=https://discordapp.com/users/629733729170096156] Discord [/url], or open issue on [url=https://github.com/Potat369/PlatformTorches] Github [/url]
+[h2] Report Issue [/h2]
+If you encounter any issues with the mod you can:
+[list]
+	[*] Write below in the comments.
+	[*] Open issue on [url=https://github.com/Potat369/PlatformTorches] Github [/url]
+[/list]
+
+[h2] Support [/h2]
+If you [b] willing [/b] to support me, you can:
+[list]
+	[*] Tell others about my mods
+	[*] Donate me on [url=https://ko-fi.com/potat369] Ko-fi [/url]. [b] It's completely optional. [/b]
+[/list]
