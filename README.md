@@ -5,4 +5,4 @@
 
 ## Description
 
-Tiny mod for [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) that tweaks the Smart Cursor to place torches on platform.
+Tiny mod for [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) that tweaks the Smart Cursor to place torches on platforms.
