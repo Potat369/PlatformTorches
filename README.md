@@ -5,11 +5,7 @@
 
 ## Description
 
-Tiny mod for [tModLoader](https://store.steampowered.com/app/1281930/tModLoader/) that tweaks the Smart Cursor to place torches on platforms.
-
-## Usage
-
-Go into your world, activate Smart Cursor by pressing Left Ctrl, place some platforms, hold Left Shift and voila.
+Tiny mod for tModLoader. Adds what (i think) should've been included in the base game. Smart Cursor now can place torches on platforms, so light up your arenas isn't tedious anymore. 
 
 ## License
 
