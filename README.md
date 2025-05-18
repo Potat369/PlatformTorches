@@ -5,7 +5,7 @@
 
 ## Description
 
-Tiny mod for tModLoader. Adds what (i think) should've been included in the base game. Smart Cursor now can place torches on platforms, so light up your arenas isn't tedious anymore. 
+Tiny mod for tModLoader. Adds what (i think) should've been included in the base game. Smart Cursor now can place torches on platforms, so lighting up your arenas isn't tedious anymore. 
 
 ## License
 
